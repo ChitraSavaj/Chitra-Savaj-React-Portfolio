@@ -24,7 +24,7 @@ const HomePage = () => {
               <a href="https://www.instagram.com/savagesavaj?igsh=YzUyM2NtN3l3MjJs" target="_blank" rel="noopener noreferrer">
                 <FaInstagram className="border border-[#ff7a57] rounded-full p-2" />
               </a>
-              <a href="https://github.com/ChitraSavaj" target="" rel="">
+              <a href="https://github.com/ChitraSavaj" target="_blank" rel="noopener noreferrer">
                 <FaGithub className="border border-[#ff7a57] rounded-full p-2" />
               </a>
             </div>

@@ -4,7 +4,7 @@ import { MdPhoneAndroid, MdOutlineMail } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
 
 const Contact = () => {
-  const navigate = useNavigate(); // Import and initialize useNavigate
+  const navigate = useNavigate(); // Imported useNavigate
 
   const submitData = (e) => {
     e.preventDefault();
@@ -21,12 +21,9 @@ const Contact = () => {
         <div className="sm:px-20 px-15">
           <p>Contact</p>
           <h2 className="capitalize text-gray-900 text-2xl font-medium">
-            Connect
           </h2>
           <p className="text-gray-500 mt-5 mb-8">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ipsa,
-            consequuntur a sint cumque sit adipisci aliquid voluptates. Qui,
-            culpa!
+            
           </p>
           <div className="shadow-lg flex p-10 gap-20">
             <div className="w-[65%] flex-1">
